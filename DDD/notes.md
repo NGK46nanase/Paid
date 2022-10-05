@@ -21,3 +21,32 @@ allowed by the model. Find easier ways to say what you need to say, and then tak
 ## One Team, One Language
 
 ## Documents and Diagrams
+
+a UML diagram cannot convey two of the most important aspects of a model: the meaning of the concepts it represents, and what the objects are meant to do.
+
+*The vital detail about the design is captured in the code.*
+
+*the mocdle is not the diagram*. The diagram's purpose is to help communicate and explain the model.
+
+### Written Design Documents
+
+#### Documents Should Complement Code and Speech
+
+*A document shouldn't try to do what the code already does well.* The code already supplies the detail. It is an exact specification of program behavior.
+Documents can clarify design intent when the programming language does not support a straightforward implementation of a concept. Written documents should complement the code and the talking.
+
+#### Documents Should Work for a Living and Stay Current
+
+The greatest value of a design document is to explain the concepts of the model, help in navigating the detail of the code, and perhaps give some insight into the model's intended styple of use.
+
+*A document must be involved in project activites.* 
+
+By Keeping documents minimal and focusing them on *complementing* code and conversation, documents can stay connected to the project.
+
+### Executable Bedrock
+
+## Explanatory Models
+
+# Chapter Three. Binding Model and Implementation
+
+
