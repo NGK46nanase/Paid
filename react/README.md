@@ -98,4 +98,23 @@ note how <script> becomes <script type="text/babel"> this is a trick where, by s
   );
   ```
   
+  Properties in Function Components
+  ```
+  const MyComponent = function (props) {
+    return <span>My name is <em>{props.name}</em></span>;
+  };
+  ```
+  
+  use JavaScript's destructuring assignment
+   ```
+  const MyComponent = function ({name,job}) {
+    return <span>My name is <em>{name}</em>,the {job}</span>;
+  };
+  MyComponent.defaultProps = {
+    job: 'engineer',
+  }
+  ```
+  
+  
+  
   
